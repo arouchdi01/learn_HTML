@@ -13,11 +13,11 @@
             <img src="https://www.a2com.fr/wp-content/uploads/2020/05/Supervision-ou-cloud-1.png" alt="image2">
 
             <ul>
-               <li><a href="">Home</a></li>
-               <li><a href="">About</a></li>
-               <li><a href="">CV</a></li>
-               <li><a href="">Blog</a></li>
-               <li><a href="">Contact</a></li> 
+               <li><a href="#Home">Home</a></li>
+               <li><a href="#About">About</a></li>
+               <li><a href="#CV">CV</a></li>
+               <li><a href="#Blog">Blog</a></li>
+               <li><a href="#Contact">Contact</a></li> 
             </ul>
         </nav>
 
@@ -26,7 +26,7 @@
     <main>
         <!-- Section HOME -->
         <section>
-            <h1>Home</h1>
+            <h1 id="Home">Home</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur voluptatum hic amet eius ipsum mollitia recusandae? Eligendi obcaecati, fugit voluptatibus in sapiente excepturi quisquam doloribus debitis. Perspiciatis voluptas quae explicabo.
             Corrupti facere dolor minus iste quo. Debitis placeat, quibusdam recusandae, ab accusantium, qui reprehenderit aspernatur tempora dolorum neque dignissimos? Illum, amet perspiciatis hic maxime similique sed adipisci alias eaque aperiam?
             Deleniti, mollitia consequuntur recusandae nostrum repellat natus reprehenderit a rerum, quis harum culpa minima dolorem nihil libero dicta magnam quia. Sequi itaque aperiam illum natus, unde quaerat sed magnam eos.
@@ -42,7 +42,7 @@
         </section>
         <!-- Section ABOUT -->
         <section>
-            <h1>About</h1>
+            <h1 id="About">About</h1>
             <table border="2">
                 <tr>
                     <th>Nom</th>
@@ -68,17 +68,17 @@
         </section>
         <!-- Section CV -->
         <section>
-            <h1>CV</h1>
+            <h1 id="CV">CV</h1>
             <iframe width="964" height="542" src="https://www.youtube.com/embed/EOqx_oKPDBU" title="[Découverte C#] Maîtrisez la Programmation Orientée Objet en C#" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
         <!-- Section BLOG -->
      <section>
-        <h1>Blog</h1>
+        <h1 id="Blog">Blog</h1>
         <video src="Videos/univers.mp4" controls></video>
      </section>
      <!-- Section CONTACT -->
      <section>
-        <h1>Contact</h1>
+        <h1 id="Contact">Contact</h1>
         <form>
             <label for="Prenom">Prenom:</label>
             <input type="text" id="prenom" name="prenom" placeholder="Saisir votre prenom" required> <br>
@@ -86,6 +86,10 @@
             <input type="text" id="nom" name="nom" placeholder="Saisir votre nom" required> <br>
             <label for="Prenom">Email:</label>
             <input type="email" id="email" name="email" placeholder="example@gmal.com" required> <br>
+            <input type="radio" name="radi" value="oui" checked>
+            <label for="oui">OUI</label><br>
+            <input type="radio" name="radi" value="non">
+            <label for="non">NON</label><br>
                 <input type="submit" value="Soumettre">
         </form>
      </section>
