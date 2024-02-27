@@ -75,6 +75,12 @@ header {
     font-size: x-large;
 }
 
+.navbar ul li a:hover{
+    border: 0;
+    border-radius: 10px;
+    background-color: brown;
+}
+
 /* Style du main */
 main {
     padding: 20px;
@@ -85,6 +91,48 @@ section {
     margin-bottom: 40px;
 }
 
+/* Style du formulaire */
+form {
+    max-width: 500px;
+    /*margin: 0 auto;*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
 /* Style du footer */
 footer {
     background-color: #333;
